@@ -1,0 +1,47 @@
+html body {
+  margin: 0px;
+  padding: 0px;
+  background-color: gainsboro;
+}
+
+section#form {
+  background-color: white;
+  width: 20%;
+  height: 350px;
+}
+
+div#load-image {
+  position: relative;
+  left: 15px;
+  bottom: 10px;
+  padding: 10px;
+  width: 80px;
+  height: 80px;
+  border-radius: 60px;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+  background-color: white;
+}
+
+input#image {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+}
+
+form#user-form {
+  position: relative;
+  top: 20px;
+  left: 30px;
+}
+
+form#user-form input {
+  display: block;
+  width: 220px;
+  height: 25px;
+  margin-bottom: 10px;
+}
